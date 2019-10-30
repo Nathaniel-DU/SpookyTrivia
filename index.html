@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Get Full Pooked Dudes!</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1><span>Friday The 13th Spook Fest</span></h1>
+
+			<div id="buttons">
+        		<button id="start">Click Here to Start</button>
+        	</div>
+			
+			<div class="container">
+				
+				<div id="timeRemaining">
+					<h2>Time Remaining: <div id="time"></div></h2>
+				</div>
+				<p id="question" class="showQuestion"></p>
+				<div id="allQuestions">
+					<tr>
+						<span id="question1">
+							<h3>Who Was The Killer In The First Film?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q1" value="false"> Jason</br>
+						</td>
+						<td>
+							<input type="radio" name="q1" value="false"> His Father</br>
+						</td>
+						<td>
+							<input type="radio" name="q1" value="true"> His Mother</br>
+						</td>
+
+						<span id="question2">
+							<h3>what Was The Budget For The First Film?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q2" value="true"> $550,000</br>
+						</td>
+						<td>
+							<input type="radio" name="q2" value="false"> $1,500,000</br>
+						</td>
+						<td>
+							<input type="radio" name="q2" value="false"> $38,000</br>
+						</td>
+
+						<span id="question3">
+							<h3>How Long Did It Take To Film The First Movie?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q3" value="false"> 3 Months</br>
+						</td>
+						<td>
+							<input type="radio" name="q3" value="false"> 6 Months</br>
+						</td>
+						<td>
+							<input type="radio" name="q3" value="true"> 28 days</br>
+						</td>
+
+						<span id="question4">
+							<h3>Camp Crystal Lake is actually Camp: </h3>
+						</span>
+						<td>
+							<input type="radio" name="q4" value="true"> No-Be-Bo-Sco</br>
+						</td>
+						<td>
+							<input type="radio" name="q4" value="false"> Hatch Brother's Ranch</br>
+						</td>
+						<td>
+							<input type="radio" name="q4" value="false"> Winny-Pok-Sunrise</br>
+						</td>
+
+						<span id="question5">
+							<h3>How Many Friday The 13th Movies Are There?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q5" value="true"> 11</br>
+						</td>
+						<td>
+							<input type="radio" name="q5" value="false"> 8</br>
+						</td>
+						<td>
+							<input type="radio" name="q5" value="false"> 13</br>
+						</td>
+
+						<span id="question6">
+							<h3>What is Jason's weapon of choice?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q6" value="false"> Chain Saw</br>
+						</td>
+						<td>
+							<input type="radio" name="q6" value="true"> Machete</br>
+						</td>
+						<td>
+							<input type="radio" name="q6" value="false"> Butcher Knife</br>
+						</td>
+
+						<span id="question7">
+							<h3>How did Jason's mother die in the original Friday the 13th?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q7" value="false"> Shot</br>
+						</td>
+						<td>
+							<input type="radio" name="q7" value="false"> Drowned</br>
+						</td>
+						<td>
+							<input type="radio" name="q7" value="true"> Beheaded</br>
+						</td>
+
+						<span id="question8">
+							<h3>Is Jason Cute?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q8" value="false"> No</br>
+						</td>
+						<td>
+							<input type="radio" name="q8" value="true"> Yes</br>
+						</td>
+						<td>
+							<input type="radio" name="q8" value="false"> Weird Question, But No.</br>
+						</td>
+
+						<span id="question9">
+							<h3>What popular actor met his demise at the hands of the killer in the original Friday the 13th?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q9" value="false"> Johnny Depp</br>
+						</td>
+						<td>
+							<input type="radio" name="q9" value="true"> Kevin Bacon</br>
+						</td>
+						<td>
+							<input type="radio" name="q9" value="false"> Brad Pitt</br>
+						</td>
+
+						<span id="question10">
+							<h3>The first Friday the 13th movie was released in what year?</h3>
+						</span>
+						<td>
+							<input type="radio" name="q10" value="true"> 1980</br>
+						</td>
+						<td>
+							<input type="radio" name="q10" value="false"> 1976</br>
+						</td>
+						<td>
+							<input type="radio" name="q10" value="false"> 1981</br>
+						</td>
+					</tr>
+				</div>
+			<br>
+				<div id="buttons">
+        			<button id="submit">Submit Your Answers Here!</button>
+        		</div>
+
+        		<div id="answers">
+					<h2>Correct Answers: <span id="correctAnswers"></span></h2>
+					<h2>Incorrect Answers: <span id="incorrectAnswers"></span></h2>
+					<h2>Unanswered Questions: <span id="unansweredQuestions"></span></h2>
+				</div>
+				
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/app.js"></script>
+			</body>
+		</html>
